@@ -21,4 +21,10 @@
 - git remote must be set with x-access-token before auto-commit (done in WAKE UP sequence)
 - stage1 args: --slack-channel "#phantom-negotiator" --repo-name "phantom-negotiator"
 
+## Owner
+- **Name**: Unknown — resolve via Gmail profile or ask user on first negotiation task
+
+## Active Deals
+_(none yet)_
+
 ## Known Sites
