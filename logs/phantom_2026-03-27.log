@@ -14,3 +14,8 @@
 2026-03-27 11:51:21 | INFO     | [slack] READ 2 messages from ID:C0AP92GANLA
 2026-03-27 12:21:27 | INFO     | [slack] READ 2 messages from ID:C0AP92GANLA
 2026-03-27 12:51:30 | INFO     | [slack] READ 2 messages from ID:C0AP92GANLA
+2026-03-27 13:22:13 | INFO     | [slack] READ 2 messages from ID:C0AP92GANLA
+2026-03-27 13:22:21 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: 👻 Phantom updated — now running as Browser Agent + Negotiator. Ready for browser tasks, web research, and deal negotiations. Drop a task anytime!
+
+2026-03-27 13:22:21 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774617741.806739
+2026-03-27 13:22:21 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Phantom updated — now running as Browser Agent + Negotiator. Ready for browser tasks, web research, and deal negotiations. Drop a task anytime!
