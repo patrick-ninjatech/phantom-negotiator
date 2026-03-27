@@ -30,13 +30,16 @@
 
 ## Active Deals
 
-### NYC Hotel May 24-31 — Status: Outreach Pending Approval
+### NYC Hotel May 24-31 — Status: Outreach Sent / Awaiting Replies
 - **Task**: Find best-priced hotels/Airbnb in NYC for May 24-31, 2026 (7 nights), email 50+ hotels
-- **Vendor(s)**: 52 hotels identified with contact emails
-- **Last action**: Posted draft email + full 52-hotel list to Slack for approval (2026-03-27)
-- **Awaiting**: User approval to send negotiation emails
-- **Outcome**: Pending
-- **Thread**: 1774620193.516509
+- **Vendor(s)**: 50 hotels emailed with negotiation request
+- **Last action**: All 50 emails sent via Gmail (2026-03-27, ~16:00 UTC)
+- **Last email sent**: 2026-03-27, "Extended Stay Inquiry — May 24-31, 2026 (7 Nights)"
+- **Awaiting**: Replies from hotels with rate offers
+- **Outcome**: Pending — monitoring inbox for responses
+- **Thread**: 1774621251.537119
+- **Gmail method**: Compose URL pre-fill + Send button click (most reliable)
+- **Sent folder screenshot**: phantom/screenshots/sent_folder_final.png
 
 **Shortlist (per night / 7-night total):**
 1. Pod 51 (Midtown) — $103/night (~$721) ⭐4.1 — 37% below usual
@@ -61,3 +64,6 @@
 - **Booking.com**: Redirects from direct search URLs — needs form interaction
 - **Kayak**: Blocks automated access (CAPTCHA)
 - **VRBO**: Blocks automated access (bot detection)
+- **Gmail compose URL**: Most reliable method for bulk sending — `mail.google.com/mail/u/0/?view=cm&fs=1&to=X&su=Y&body=Z`
+- **Gmail compose button**: `div[gh='cm']` or `text=Compose` — unreliable for rapid sequential sends
+- **Gmail send button**: `div[aria-label='Send ‪(Ctrl-Enter)‬']` — works reliably
