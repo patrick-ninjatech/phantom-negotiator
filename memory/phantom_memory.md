@@ -30,27 +30,27 @@
 
 ## Active Deals
 
-### NYC Hotel May 24-31 — Status: Counter-Offers Sent / Awaiting Responses
+### NYC Hotel May 24-31 — Status: Comparison Report Delivered / 3 Counters Pending
 - **Task**: Find best-priced hotels/Airbnb in NYC for May 24-31, 2026 (7 nights), email 50+ hotels
-- **Vendor(s)**: 50 hotels emailed, 8 replied, 11 bounced, 5 counter-offers sent
-- **Last action**: Sent counter-offers to 5 hotels (2026-03-27 ~15:30 UTC)
-- **Awaiting**: Counter-offer responses from hotels
-- **Outcome**: Pending — negotiating lower rates
+- **Vendor(s)**: 50 hotels emailed, 10 replied, 11 bounced, 5 counter-offers sent, 2 declined
+- **Last action**: Posted full comparison report to Slack (2026-03-27 ~16:00 UTC)
+- **Awaiting**: 3 remaining counter-offer responses + Jason's booking decision
+- **Outcome**: Hotels largely won't negotiate for May (busy season). Best bet is online booking.
 - **Thread**: 1774624881.064469 (counter-offer thread)
 
-**Replies + Counter-Offers (2026-03-27):**
-1. **Pod 39/51** — Quoted: Bunk $220/nt, Full $241/nt, Queen $260/nt. Counter: Bunk $140/nt, Full $160/nt. Contact: Nick/Cristina, reservations@podhotel39.com
-2. **Hotel Indigo Wall Street** — Quoted: $281/nt. Counter: $170/nt. Contact: Marissa P, FD@inwallst.com
-3. **Hilton NY Times Square** — Quoted: King $309/nt, 2Q $359/nt. Counter: King $220/nt. Contact: Gary Prinz, NYCTS_HOTEL@hilton.com
-4. **Sanctuary Hotel** — Quoted: $318/nt (15% off). Counter: $250/nt. Contact: Leni, reservations@sanctuaryhotelnyc.com
-5. **Tempo by Hilton TS** — Quoted: $318/nt long-stay. Counter: $240/nt. Contact: Donielle Strawder, NYCTE_FO@hilton.com
+**Counter-Offer Results:**
+1. **Pod 39/51** — ❌ Declined. Firm at $220/nt all-in. Google: $95-120/nt before tax.
+2. **Hotel Indigo Wall Street** — ❌ Declined. Firm at $281/nt. "May is very busy." Google: $166/nt.
+3. **Hilton NY Times Square** — ⏳ Pending. Quoted $309/nt King. Counter: $220/nt. Google: $185/nt.
+4. **Sanctuary Hotel** — ⏳ Pending. Quoted $318/nt. Counter: $250/nt. Google: $146/nt.
+5. **Tempo by Hilton TS** — ⏳ Pending. Quoted $318/nt. Counter: $240/nt. Google: $325/nt.
 
-**Other replies (no specific quote):**
-6. TWA Hotel — book via website. Contact: Curlann John-Clark, cjohn-clark@twahotel.com
-7. Motto by Hilton Chelsea — book via website. Contact: Marissa Panza, fdmottochelsea@hilton.com
-8. Arthouse Hotel — special offers on website. Contact: AH-Reservations@arthousehotelnyc.com
+**Best options (book online):**
+- Pod 51: $95/nt + tax (~$770 total) — cheapest
+- Hampton Inn TS Central: $128/nt + tax (~$1,030 total) — best TS value
+- Motto by Hilton Chelsea: $148/nt + tax (~$1,190 total) — trendy, 4.5 stars
 
-**Bounced emails (11):** reservations@tryphotelnyc.com, reservations@elementtimessquare.com, info@cachetboutique.com, reservations@hotel46ts.com, info@hotelhaydennyc.com, EvelynRes@triumphny.com, reservations@thegallivantnyc.com, info@theradiohotel.com (+ 3 more)
+**Lessons learned:** NYC hotels don't negotiate much for May. Email quotes were higher than OTA prices. Direct booking benefits = flexibility, not price.
 
 **Shortlist (per night / 7-night total):**
 1. Pod 51 (Midtown) — $103/night (~$721) ⭐4.1 — 37% below usual

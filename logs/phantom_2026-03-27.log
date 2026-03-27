@@ -125,3 +125,13 @@ _Hotels with rate quotes (counter-offer targets):_
 2026-03-27 15:30:52 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: 👻 Quick update: 9 hotel replies total now. Latest is Hampton Inn Times Square Central (directed to website, no specific quote). Still waiting on counter-offer responses from our 5 targets — they were ...
 2026-03-27 15:30:52 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774625452.538259
 2026-03-27 15:30:52 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Quick update: 9 hotel replies total now. Latest is Hampton Inn Times Square Central (directed to website, no specific quote). Still waiting on counter-offer responses from our 5 targets — they were ...
+2026-03-27 16:00:14 | INFO     | [slack] READ 10 messages from ID:C0AP92GANLA
+2026-03-27 16:03:31 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: 👻 Here's your full negotiation report — original website prices vs. what we got via email:
+_📊 NEGOTIATION RESULTS — NYC Hotels, May 24-31 (7 Nights)_
+| # | Hotel | ⭐ | Google Price/nt | Email Quote/nt...
+2026-03-27 16:03:31 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774627411.298139
+2026-03-27 16:03:31 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Here's your full negotiation report — original website prices vs. what we got via email:
+
+*📊 NEGOTIATION RESULTS — NYC Hotels, May 24-31 (7 Nights)*
+
+| # | Hotel | ⭐ | Google Price/nt | Email Quote/...
