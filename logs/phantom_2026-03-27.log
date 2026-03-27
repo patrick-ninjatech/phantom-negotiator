@@ -24,3 +24,38 @@
 2026-03-27 13:32:27 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774618347.424879
 2026-03-27 13:32:27 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Phantom is online!
 2026-03-27 13:32:35 | INFO     | [slack] READ 4 messages from ID:C0AP92GANLA
+2026-03-27 14:00:21 | INFO     | [slack] READ 4 messages from ID:C0AP92GANLA
+2026-03-27 14:01:03 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: 👻 Confirmed Gmail session active for Jason Sherman (jasonsherman736@gmail.com). Owner identity resolved. Ready for negotiation tasks — just drop a request!
+
+2026-03-27 14:01:03 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774620063.307649
+2026-03-27 14:01:03 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Confirmed Gmail session active for Jason Sherman (jasonsherman736@gmail.com). Owner identity resolved. Ready for negotiation tasks — just drop a request!
+2026-03-27 14:03:27 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: 👻 On it! I'll research the best hotel and Airbnb deals in New York for May 24-31. Searching now — I'll come back with options and pricing, then we can reach out to negotiate. 👻
+
+2026-03-27 14:03:28 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774620208.107899
+2026-03-27 14:03:28 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 On it\! I'll research the best hotel and Airbnb deals in New York for May 24-31. Searching now — I'll come back with options and pricing, then we can reach out to negotiate. 👻
+2026-03-27 14:09:16 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: 👻 Research complete for NYC hotels, May 24-31 (7 nights). Here's what I found:
+_🏨 Best Hotel Deals (per night / total for 7 nights):_
+1.  _Pod 51_ (Midtown) — $103/night (~$721 total) ⭐ 4.1 — GREAT DE...
+2026-03-27 14:09:16 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774620556.386249
+2026-03-27 14:09:16 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Research complete for NYC hotels, May 24-31 (7 nights). Here's what I found:
+
+*🏨 Best Hotel Deals (per night / total for 7 nights):*
+1. *Pod 51* (Midtown) — $103/night (~$721 total) ⭐ 4.1 — GREAT DE...
+2026-03-27 14:09:22 | INFO     | [slack] UPLOAD OK: /workspace/browser-automation/phantom/screenshots/step_010.png to ID:C0AP92GANLA
+2026-03-27 14:09:24 | INFO     | [slack] UPLOAD OK: /workspace/browser-automation/phantom/screenshots/step_014.png to ID:C0AP92GANLA
+2026-03-27 14:21:10 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: 👻 Challenge accepted! I'll find contact emails for 50+ NYC hotels and draft a negotiation email requesting your best weekly rate for May 24-31. I'll post the draft for your approval before sending any...
+2026-03-27 14:21:10 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774621270.603469
+2026-03-27 14:21:10 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Challenge accepted\! I'll find contact emails for 50+ NYC hotels and draft a negotiation email requesting your best weekly rate for May 24-31. I'll post the draft for your approval before sending an...
+2026-03-27 14:25:04 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: 👻 Found 50+ hotel contacts! Compiling the full list now and drafting the negotiation email template for your approval. Give me a couple minutes... 👻
+
+2026-03-27 14:25:04 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774621504.811909
+2026-03-27 14:25:04 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Found 50+ hotel contacts! Compiling the full list now and drafting the negotiation email template for your approval. Give me a couple minutes... 👻
+2026-03-27 14:25:43 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: 👻 Here's my draft negotiation email. Please review and reply _'send it'_ to approve, or tell me what to change:
+_To:_ [Each hotel individually]
+_Subject:_ Extended Stay Inquiry — May 24-31, 2026 (7 Ni...
+2026-03-27 14:25:44 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774621544.167059
+2026-03-27 14:25:44 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Here's my draft negotiation email. Please review and reply *'send it'* to approve, or tell me what to change:
+
+---
+*To:* [Each hotel individually]
+*Subject:* Extended Stay Inquiry — May 24-31, 2026 ...
