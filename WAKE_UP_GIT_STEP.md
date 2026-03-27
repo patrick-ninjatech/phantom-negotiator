@@ -14,14 +14,14 @@ The `stage1_install.sh` script accepts two optional arguments that are saved to 
 
 ```bash
 bash /workspace/browser-automation/stage1_install.sh \
-    --slack-channel "#test_phantom2" \
-    --repo-name "browser-automation"
+    --slack-channel "#phantom-negotiator" \
+    --repo-name "phantom-negotiator"
 ```
 
 This writes `/workspace/browser-automation/.env`:
 ```
-SLACK_CHANNEL="#test_phantom2"
-REPO_NAME="browser-automation"
+SLACK_CHANNEL="#phantom-negotiator"
+REPO_NAME="phantom-negotiator"
 ```
 
 Both `git_auto_commit.sh` and `stage2_start.sh` read from this file automatically — no hardcoded values.
@@ -34,7 +34,7 @@ Both `git_auto_commit.sh` and `stage2_start.sh` read from this file automaticall
 **Priority chain for SLACK_CHANNEL:**
 1. `$1` argument to `stage2_start.sh` (explicit override)
 2. `.env` file (written by `stage1_install.sh --slack-channel`)
-3. `#browser-automation-test` (hardcoded fallback)
+3. `#phantom-negotiator` (hardcoded fallback)
 
 ---
 
