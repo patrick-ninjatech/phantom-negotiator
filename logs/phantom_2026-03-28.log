@@ -1,0 +1,9 @@
+2026-03-28 08:32:40 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: ⚠️ *Gmail session expired* — Google is requiring re-authentication with reCAPTCHA verification, which I can't complete automatically.
+*What this means:*
+•   I can no longer monitor your inbox for hote...
+2026-03-28 08:32:40 | WARNING  | [slack] API chat.postMessage: Token error (token_expired), attempting refresh
+2026-03-28 08:32:40 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774686760.868249
+2026-03-28 08:32:40 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: ⚠️ **Gmail session expired** — Google is requiring re-authentication with reCAPTCHA verification, which I can't complete automatically.
+
+**What this means:**
+- I can no longer monitor your inbox for h...
