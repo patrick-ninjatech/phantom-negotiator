@@ -1,7 +1,8 @@
 # Phantom Memory
 
 ## Session History
-- **2026-03-27**: Session started. Browser server running (Chrome 145, CDP on localhost:9222). Slack channel: #phantom-negotiator. Orchestrator running. Channel quiet — no pending requests. Resolved owner: Jason Sherman (jasonsherman736@gmail.com). Gmail session active.
+- **2026-03-27**: Session started. Hotel negotiation task completed — 50 hotels emailed, 12 replied, 5 counter-offers sent, all declined or no response. Comparison report delivered. Awaiting Jason's booking decision.
+- **2026-03-28**: Monitoring continues. No new hotel replies or Slack messages. 3 counter-offers marked as no-response. Deal effectively complete.
 
 ## Configuration
 - **Slack channel**: #phantom-negotiator (ID: C0AP92GANLA)
@@ -30,20 +31,20 @@
 
 ## Active Deals
 
-### NYC Hotel May 24-31 — Status: Comparison Report Delivered / 3 Counters Pending
+### NYC Hotel May 24-31 — Status: Complete (Awaiting Jason's Booking Decision)
 - **Task**: Find best-priced hotels/Airbnb in NYC for May 24-31, 2026 (7 nights), email 50+ hotels
-- **Vendor(s)**: 50 hotels emailed, 10 replied, 11 bounced, 5 counter-offers sent, 2 declined
+- **Vendor(s)**: 50 hotels emailed, 12 replied, 11 bounced, 5 counter-offers sent, 2 declined, 3 no response
 - **Last action**: Posted full comparison report to Slack (2026-03-27 ~16:00 UTC)
-- **Awaiting**: 3 remaining counter-offer responses + Jason's booking decision
-- **Outcome**: Hotels largely won't negotiate for May (busy season). Best bet is online booking.
-- **Thread**: 1774624881.064469 (counter-offer thread)
+- **Awaiting**: Jason's booking decision only (counter-offers exhausted)
+- **Outcome**: Hotels won't negotiate for May (busy season). Best bet is online booking via Google Hotels/OTAs.
+- **Thread**: 1774620193.516509 (main thread)
 
 **Counter-Offer Results:**
 1. **Pod 39/51** — ❌ Declined. Firm at $220/nt all-in. Google: $95-120/nt before tax.
 2. **Hotel Indigo Wall Street** — ❌ Declined. Firm at $281/nt. "May is very busy." Google: $166/nt.
-3. **Hilton NY Times Square** — ⏳ Pending. Quoted $309/nt King. Counter: $220/nt. Google: $185/nt.
-4. **Sanctuary Hotel** — ⏳ Pending. Quoted $318/nt. Counter: $250/nt. Google: $146/nt.
-5. **Tempo by Hilton TS** — ⏳ Pending. Quoted $318/nt. Counter: $240/nt. Google: $325/nt.
+3. **Hilton NY Times Square** — ❌ No response to counter. Quoted $309/nt King. Counter: $220/nt. Google: $185/nt.
+4. **Sanctuary Hotel** — ❌ No response to counter. Quoted $318/nt. Counter: $250/nt. Google: $146/nt.
+5. **Tempo by Hilton TS** — ❌ No response to counter. Quoted $318/nt. Counter: $240/nt. Google: $325/nt.
 
 **Best options (book online):**
 - Pod 51: $95/nt + tax (~$770 total) — cheapest
