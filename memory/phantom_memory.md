@@ -2,7 +2,7 @@
 
 ## Session History
 - **2026-03-27**: Session started. Hotel negotiation task completed — 50 hotels emailed, 12 replied, 5 counter-offers sent, all declined or no response. Comparison report delivered. Awaiting Jason's booking decision.
-- **2026-03-28**: Monitoring continues. No new hotel replies or Slack messages. 3 counter-offers marked as no-response. Deal effectively complete.
+- **2026-03-28**: Monitoring continues. No new hotel replies or Slack messages. 3 counter-offers marked as no-response. Deal effectively complete. Gmail session expired (~08:30 UTC) — Google requires reCAPTCHA re-auth. Notified Jason on Slack. Jason needs to re-login via VNC/noVNC to restore Gmail access.
 
 ## Configuration
 - **Slack channel**: #phantom-negotiator (ID: C0AP92GANLA)
@@ -20,6 +20,7 @@
 - Git remote set to: https://github.com/patrick-ninjatech/phantom-negotiator.git
 - GITHUB_TOKEN must be set from /dev/shm/mcp-token before git_auto_commit.sh runs
 - git remote must be set with x-access-token before auto-commit (done in WAKE UP sequence)
+- ⚠️ git_auto_commit.sh CORRUPTS remote URL — always run `git remote set-url origin "https://github.com/patrick-ninjatech/phantom-negotiator.git" && gh auth setup-git` after it runs
 - stage1 args: --slack-channel "#phantom-negotiator" --repo-name "phantom-negotiator"
 
 ## Owner
@@ -27,7 +28,7 @@
 - **Email**: jasonsherman736@gmail.com
 - **Phone**: 07548 375161
 - **DOB**: March 27, 1995
-- **Gmail**: Logged in, session active (verified 2026-03-27)
+- **Gmail**: ⚠️ SESSION EXPIRED (2026-03-28 ~08:30 UTC) — needs manual re-login via VNC
 
 ## Active Deals
 
