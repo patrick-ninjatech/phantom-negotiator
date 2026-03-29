@@ -3,6 +3,7 @@
 ## Session History
 - **2026-03-27**: Session started. Hotel negotiation task completed — 50 hotels emailed, 12 replied, 5 counter-offers sent, all declined or no response. Comparison report delivered. Awaiting Jason's booking decision.
 - **2026-03-28**: Monitoring continues. No new hotel replies or Slack messages. 3 counter-offers marked as no-response. Deal effectively complete. Gmail session expired (~08:30 UTC) — Google requires reCAPTCHA re-auth. Notified Jason on Slack. Jason needs to re-login via VNC/noVNC to restore Gmail access.
+- **2026-03-29**: Idle monitoring. No new Slack messages from Jason. Gmail still expired. All tasks complete — awaiting next instruction.
 
 ## Configuration
 - **Slack channel**: #phantom-negotiator (ID: C0AP92GANLA)
