@@ -80,7 +80,12 @@
 - **Garden photo**: /workspace/browser-automation/garden_photo.png
 - **Email template**: /workspace/browser-automation/gardener_email_template.txt
 - **Thread**: 1774872562.843209 (original), 1774952800.002219 (continuation)
-- **Status**: All 11 emails sent 2026-03-31 ~14:00 UTC via ProtonMail. Awaiting replies.
+- **Status**: All 11 emails sent 2026-03-31 ~14:00 UTC via ProtonMail. 3 replies received so far.
+- **Replies**:
+  - Ace Maintenance — £495 + VAT (full cleanup inc waste disposal). Wants address to book.
+  - Freddie's Gardening / Fantastic Services — Wants phone call + postcode to quote.
+  - Freddie's Gardening — Auto-reply (create account / FAQ)
+- **Awaiting**: Jason's direction on negotiation / postcode sharing
 - **Gardener list (approved)**:
   1. City Gardeners (North London) — info@citygardeners.co.uk
   2. Urban Gardeners (SE London) — office@urbangardeners.co.uk
