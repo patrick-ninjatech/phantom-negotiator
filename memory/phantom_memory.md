@@ -5,6 +5,7 @@
 - **2026-03-28**: Monitoring continues. No new hotel replies or Slack messages. 3 counter-offers marked as no-response. Deal effectively complete. Gmail session expired (~08:30 UTC) — Google requires reCAPTCHA re-auth. Notified Jason on Slack. Jason needs to re-login via VNC/noVNC to restore Gmail access.
 - **2026-03-29**: Idle monitoring most of day. Jason asked for session summary (~21:00 UTC) — posted full summary to Slack thread. Gmail still expired. All tasks complete — awaiting next instruction.
 - **2026-03-30**: Continued monitoring. No new messages from Jason after session summary. Idle.
+- **2026-03-31**: Jason requested continuation of gardener task. Posted VNC URL for ProtonMail login. Downloaded garden photo (3.9MB). Email template prepared for 11 London gardeners. Waiting for Jason to log in.
 
 ## Configuration
 - **Slack channel**: #phantom-negotiator (ID: C0AP92GANLA)
@@ -73,6 +74,26 @@
 - May is shoulder season — prices moderate, negotiation possible
 - Week-long stays can often get 10-20% off via direct booking/email
 
+### London Garden Cleanup — Status: In Progress (Awaiting ProtonMail Login)
+- **Task**: Email 11 London gardeners for cleanup quotes, negotiate best price
+- **Email**: anthony.santiago76@proton.me (Proton Mail — signing as Anthony Santiago)
+- **Garden photo**: /workspace/browser-automation/garden_photo.png
+- **Email template**: /workspace/browser-automation/gardener_email_template.txt
+- **Thread**: 1774872562.843209 (original), 1774952800.002219 (continuation)
+- **Status**: Jason approved list ("proceed") on 2026-03-30 but emails weren't sent. Resuming 2026-03-31.
+- **Gardener list (approved)**:
+  1. City Gardeners (North London) — info@citygardeners.co.uk
+  2. Urban Gardeners (SE London) — office@urbangardeners.co.uk
+  3. Green Dream London (East London) — office@greendreamlondon.co.uk
+  4. Ace Maintenance (London-wide) — info@acemaintenance.co.uk
+  5. Just Clear (Garden clearance) — hello@justclear.com
+  6. The Urban Gardeners (SW London) — toby@theurbangardeners.co.uk
+  7. Professional Gardening Services (London) — professionalgardening2016@gmail.com
+  8. Urban Bloom Gardening (London) — hello@urbanbloomgardening.co.uk
+  9. Master Landscapers (N/E London) — office@masterlandscapers.co.uk
+  10. Freddie's Gardening (London) — office@freddiesgardening.co.uk
+  11. Tidy Properties (London) — office@tidyproperties.co.uk
+
 ## Known Sites
 - **Airbnb NYC**: Only hotel listings available (no homes/rooms) due to Local Law 18
 - **Google Hotels**: Good for price comparison, accepts date params via URL
@@ -82,3 +103,5 @@
 - **Gmail compose URL**: Most reliable method for bulk sending — `mail.google.com/mail/u/0/?view=cm&fs=1&to=X&su=Y&body=Z`
 - **Gmail compose button**: `div[gh='cm']` or `text=Compose` — unreliable for rapid sequential sends
 - **Gmail send button**: `div[aria-label='Send ‪(Ctrl-Enter)‬']` — works reliably
+- **Proton Mail**: mail.proton.me — Login page at account.proton.me/mail. Need to explore compose UI once logged in.
+- **slack_interface.py read**: Uses S3 cache, often empty. Use slack_read_direct.py for reliable reads.
