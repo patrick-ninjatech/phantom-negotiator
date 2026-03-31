@@ -3,3 +3,8 @@
 2026-03-31 10:26:04 | INFO     | [slack] MSG SENT [Phantom → C0AP92GANLA] ts=1774952764.271749
 2026-03-31 10:26:04 | INFO     | [slack] MSG SENT as Phantom to ID:C0AP92GANLA: 👻 Phantom is online!
 2026-03-31 10:29:32 | WARNING  | [slack] API conversations.history: Token error (invalid_auth), attempting refresh
+2026-03-31 23:22:44 | INFO     | [slack] MSG SENDING [Phantom → C0AP92GANLA]: test connectivity
+
+2026-03-31 23:22:44 | WARNING  | [slack] API chat.postMessage: Token error (token_expired), attempting refresh
+2026-03-31 23:22:44 | ERROR    | [slack] MSG FAIL [Phantom → C0AP92GANLA]: token_expired
+2026-03-31 23:22:44 | ERROR    | [slack] MSG FAILED as Phantom to ID:C0AP92GANLA: token_expired
