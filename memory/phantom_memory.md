@@ -82,7 +82,8 @@
 - **Thread**: 1774872562.843209 (original), 1774952800.002219 (continuation)
 - **Status**: All 11 emails sent 2026-03-31 ~14:00 UTC via ProtonMail. 3 replies received so far.
 - **Replies**:
-  - Ace Maintenance — £495 + VAT (full cleanup inc waste disposal). Wants address to book.
+  - Ace Maintenance — £495 + VAT (~£594 total) for full cleanup inc waste disposal. Wants address to book.
+  - Green Dream London — £720 for garden clean + green waste collection.
   - Freddie's Gardening / Fantastic Services — Wants phone call + postcode to quote.
   - Freddie's Gardening — Auto-reply (create account / FAQ)
 - **Awaiting**: Jason's direction on negotiation / postcode sharing
