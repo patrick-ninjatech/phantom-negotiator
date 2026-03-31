@@ -89,7 +89,12 @@ fi
 ok "Authenticated as: $GH_USER"
 
 # Always ensure remote is set correctly with token auth
-GITHUB_TOKEN=$(cat /dev/shm/mcp-token 2>/dev/null | grep -oP '(?<=Github={"access_token": ")[^"]+' || echo "")
+# Try /dev/shm/mcp-token first, then fall back to $GITHUB_TOKEN env var
+_TOKEN_FROM_FILE=$(cat /dev/shm/mcp-token 2>/dev/null | grep -oP '(?<=Github={"access_token": ")[^"]+' || echo "")
+if [ -n "$_TOKEN_FROM_FILE" ]; then
+    GITHUB_TOKEN="$_TOKEN_FROM_FILE"
+fi
+# GITHUB_TOKEN may already be set in environment — use it if still unset
 if [ -n "$GITHUB_TOKEN" ]; then
     git remote set-url origin "https://x-access-token:${GITHUB_TOKEN}@github.com/${GH_USER}/${REPO_NAME}.git" 2>/dev/null || true
 fi
@@ -122,8 +127,12 @@ fi
 # ─────────────────────────────────────────────────────────────────
 # Always use token-authenticated remote for push
 GITHUB_TOKEN_CHECK=$(cat /dev/shm/mcp-token 2>/dev/null | grep -oP '(?<=Github={"access_token": ")[^"]+' || echo "")
+if [ -z "$GITHUB_TOKEN_CHECK" ]; then
+    GITHUB_TOKEN_CHECK="$GITHUB_TOKEN"
+fi
 if [ -n "$GITHUB_TOKEN_CHECK" ]; then
     EXPECTED_REMOTE="https://x-access-token:${GITHUB_TOKEN_CHECK}@github.com/$GH_USER/$REPO_NAME.git"
+    git remote set-url origin "$EXPECTED_REMOTE" 2>/dev/null || true
 else
     EXPECTED_REMOTE="https://github.com/$GH_USER/$REPO_NAME.git"
 fi
