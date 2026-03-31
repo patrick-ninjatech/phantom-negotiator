@@ -1117,3 +1117,29 @@ Log file: /workspace/logs/phantom_2026-03-31.log
 📨 Got 0 messages
 📨 Got 0 messages
 📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+⏰ Claude CLI timed out after 15 minutes
+
+✅ Phantom completed
+
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+📨 Got 0 messages
+
+⏰ Max runtime (25 minutes) reached. Stopping monitor.
+✅ Both processes completed
