@@ -3,14 +3,25 @@
 import json, urllib.request, sys
 
 def get_token():
-    with open('/dev/shm/mcp-token') as f:
-        content = f.read()
-    tokens = {}
-    for line in content.strip().split('\n'):
-        if '=' in line:
-            key, val = line.split('=', 1)
-            tokens[key] = val
-    return json.loads(tokens['Slack'])['bot_token']
+    # Try /dev/shm/mcp-token first
+    try:
+        with open('/dev/shm/mcp-token') as f:
+            content = f.read()
+        tokens = {}
+        for line in content.strip().split('\n'):
+            if '=' in line:
+                key, val = line.split('=', 1)
+                tokens[key] = val
+        return json.loads(tokens['Slack'])['bot_token']
+    except (FileNotFoundError, KeyError):
+        pass
+    # Fallback to agent_settings.json
+    try:
+        with open('/root/.agent_settings.json') as f:
+            settings = json.load(f)
+        return settings['bot_token']
+    except (FileNotFoundError, KeyError):
+        raise RuntimeError("No Slack token found in /dev/shm/mcp-token or agent_settings.json")
 
 def slack_api(method, params=None):
     token = get_token()
