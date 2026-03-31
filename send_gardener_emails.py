@@ -3,7 +3,15 @@
 from playwright.sync_api import sync_playwright
 import time
 
-BROWSER_WS = 'ws://[::1]:9222/devtools/browser/b6ea6891-de4f-4950-aa00-e281bdea63a4'
+def get_browser_ws():
+    """Get the current browser WebSocket URL from CDP."""
+    import json, urllib.request
+    req = urllib.request.Request('http://[::1]:9222/json/version')
+    resp = urllib.request.urlopen(req)
+    ver = json.loads(resp.read())
+    return ver['webSocketDebuggerUrl']
+
+BROWSER_WS = get_browser_ws()
 GARDEN_PHOTO = '/workspace/browser-automation/garden_photo.png'
 
 SUBJECT = 'Garden Cleanup Quote Request \u2014 London'
@@ -106,7 +114,19 @@ def send_email(page, name, email, step):
     file_input = page.locator('[data-testid="composer-attachments-button"]').last
     file_input.set_input_files(GARDEN_PHOTO)
     print("  Attaching photo...")
-    time.sleep(8)  # Wait for 3.9MB upload
+    time.sleep(2)
+
+    # Handle "Insert image" dialog — click "Attachment" button
+    try:
+        attach_btn = page.locator('button:has-text("Attachment")').first
+        if attach_btn.is_visible(timeout=5000):
+            attach_btn.click()
+            print("  Clicked 'Attachment' in image dialog")
+            time.sleep(1)
+    except Exception:
+        pass  # Dialog may not appear
+
+    time.sleep(6)  # Wait for upload to complete
 
     # Screenshot before sending
     page.screenshot(path=f'phantom/screenshots/email_{step}.png')
