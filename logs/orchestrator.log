@@ -776,3 +776,17 @@ No new messages from Jason. Channel only shows my own posts. Situation unchanged
 
 ⏰ Max runtime (25 minutes) reached. Stopping monitor.
 ✅ Both processes completed
+======================================================================
+ERROR: Another orchestrator instance is already running!
+======================================================================
+   Existing instance:
+   - PID: 8947
+   - Agent: Phantom
+   - Started: 2026-03-31T10:26:04.316605
+   - Last heartbeat: 2026-03-31T10:26:04.572507
+   To stop the existing instance:
+   - kill 8947
+   - Or: pkill -f 'orchestrator.py'
+   To force remove the lock (if process is stuck):
+   - rm /workspace/browser-automation/.orchestrator.lock
+======================================================================
