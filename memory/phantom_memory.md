@@ -5,7 +5,7 @@
 - **2026-03-28**: Monitoring continues. No new hotel replies or Slack messages. 3 counter-offers marked as no-response. Deal effectively complete. Gmail session expired (~08:30 UTC) — Google requires reCAPTCHA re-auth. Notified Jason on Slack. Jason needs to re-login via VNC/noVNC to restore Gmail access.
 - **2026-03-29**: Idle monitoring most of day. Jason asked for session summary (~21:00 UTC) — posted full summary to Slack thread. Gmail still expired. All tasks complete — awaiting next instruction.
 - **2026-03-30**: Continued monitoring. No new messages from Jason after session summary. Idle.
-- **2026-03-31**: Jason requested continuation of gardener task. Posted VNC URL for ProtonMail login. Downloaded garden photo (3.9MB). Email template prepared for 11 London gardeners. Waiting for Jason to log in.
+- **2026-03-31**: Jason requested continuation of gardener task. Posted VNC URL for ProtonMail login. Downloaded garden photo (3.9MB). Email template prepared for 11 London gardeners. Jason logged in. All 11 emails sent successfully ~14:00 UTC. Confirmation posted to Slack.
 
 ## Configuration
 - **Slack channel**: #phantom-negotiator (ID: C0AP92GANLA)
@@ -74,13 +74,13 @@
 - May is shoulder season — prices moderate, negotiation possible
 - Week-long stays can often get 10-20% off via direct booking/email
 
-### London Garden Cleanup — Status: In Progress (Awaiting ProtonMail Login)
+### London Garden Cleanup — Status: Emails Sent (11/11) — Awaiting Replies
 - **Task**: Email 11 London gardeners for cleanup quotes, negotiate best price
 - **Email**: anthony.santiago76@proton.me (Proton Mail — signing as Anthony Santiago)
 - **Garden photo**: /workspace/browser-automation/garden_photo.png
 - **Email template**: /workspace/browser-automation/gardener_email_template.txt
 - **Thread**: 1774872562.843209 (original), 1774952800.002219 (continuation)
-- **Status**: Jason approved list ("proceed") on 2026-03-30 but emails weren't sent. Resuming 2026-03-31.
+- **Status**: All 11 emails sent 2026-03-31 ~14:00 UTC via ProtonMail. Awaiting replies.
 - **Gardener list (approved)**:
   1. City Gardeners (North London) — info@citygardeners.co.uk
   2. Urban Gardeners (SE London) — office@urbangardeners.co.uk

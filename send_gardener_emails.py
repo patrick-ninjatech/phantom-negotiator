@@ -11,8 +11,8 @@ def get_browser_ws():
     ver = json.loads(resp.read())
     return ver['webSocketDebuggerUrl']
 
-BROWSER_WS = get_browser_ws()
-GARDEN_PHOTO = '/workspace/browser-automation/garden_photo.png'
+GARDEN_PHOTO = '/workspace/browser-automation/garden_photo_attachment.png'
+INSERT_ATTACH_SEL = '[data-testid="composer:insert-image-attachment"]'
 
 SUBJECT = 'Garden Cleanup Quote Request \u2014 London'
 BODY_LINES = [
@@ -110,50 +110,51 @@ def send_email(page, name, email, step):
 
     time.sleep(1)
 
-    # Attach garden photo
-    file_input = page.locator('[data-testid="composer-attachments-button"]').last
-    file_input.set_input_files(GARDEN_PHOTO)
+    # Attach garden photo via file input
+    file_inputs = page.locator('input[type="file"]')
+    file_inputs.first.set_input_files(GARDEN_PHOTO)
     print("  Attaching photo...")
     time.sleep(2)
 
-    # Handle "Insert image" dialog — click "Attachment" button
-    try:
-        attach_btn = page.locator('button:has-text("Attachment")').first
-        if attach_btn.is_visible(timeout=5000):
-            attach_btn.click()
+    # Handle "Insert image" dialog using correct data-testid selector
+    for _attempt in range(5):
+        att_btn = page.locator(INSERT_ATTACH_SEL)
+        if att_btn.count() > 0 and att_btn.first.is_visible():
+            att_btn.first.click()
             print("  Clicked 'Attachment' in image dialog")
-            time.sleep(1)
-    except Exception:
-        pass  # Dialog may not appear
+            time.sleep(2)
+        else:
+            break
+        time.sleep(1)
 
-    time.sleep(6)  # Wait for upload to complete
+    time.sleep(8)  # Wait for upload to complete
 
     # Screenshot before sending
     page.screenshot(path=f'phantom/screenshots/email_{step}.png')
 
     # Click Send
+    composers_before = page.locator('[data-testid="composer:close-button"]').count()
     page.locator('[data-testid="composer:send-button"]').last.click()
-    time.sleep(4)
+    time.sleep(6)
 
-    print(f"  SENT!")
-    time.sleep(3)
+    composers_after = page.locator('[data-testid="composer:close-button"]').count()
+    if composers_after < composers_before:
+        print("  SENT!")
+    else:
+        raise Exception("Composer still open after send click")
+    time.sleep(2)
 
 
 def main():
     pw = sync_playwright().start()
-    browser = pw.chromium.connect_over_cdp(BROWSER_WS)
+    browser = pw.chromium.connect_over_cdp(get_browser_ws())
     ctx = browser.contexts[0]
-    page = None
-    for p in ctx.pages:
-        if 'proton' in p.url.lower():
-            page = p
-            break
+    page = ctx.pages[0]
 
-    if not page:
-        print("ERROR: No ProtonMail page found")
-        browser.close()
-        pw.stop()
-        return
+    # Navigate to inbox if not already there
+    if 'mail.proton.me' not in page.url:
+        page.goto('https://mail.proton.me/u/0/inbox')
+        time.sleep(5)
 
     print(f"Connected: {page.url}")
 
