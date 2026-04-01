@@ -6,6 +6,7 @@
 - **2026-03-29**: Idle monitoring most of day. Jason asked for session summary (~21:00 UTC) — posted full summary to Slack thread. Gmail still expired. All tasks complete — awaiting next instruction.
 - **2026-03-30**: Continued monitoring. No new messages from Jason after session summary. Idle.
 - **2026-03-31**: Jason requested continuation of gardener task. Posted VNC URL for ProtonMail login. Downloaded garden photo (3.9MB). Email template prepared for 11 London gardeners. Jason logged in. All 11 emails sent successfully ~14:00 UTC. Confirmation posted to Slack. 4 replies received (Ace £594, Green Dream £720, Fantastic Services needs call, Freddie's auto-reply). Posted updates to Slack. Later: /dev/shm/mcp-token removed — Slack token expired. Updated slack_read_direct.py with fallback to agent_settings.json (also expired).
+- **2026-04-01**: New session. ProtonMail session expired again (login page showing). Posted VNC login request to Slack thread. Awaiting Jason's login to check for new gardener replies. Slack token working via agent_settings.json.
 
 ## Configuration
 - **Slack channel**: #phantom-negotiator (ID: C0AP92GANLA)
